@@ -3,7 +3,7 @@
   Answer:
 */
 
-% fahrenheit = (celsius * (9 / 5)) + 32
+%fahrenheit = (celsius * (9 / 5)) + 32
 getF :- write('Enter a value of Celsius:'), read(C), Output is (C * (9 / 5)) + 32, write(Output).
 
 

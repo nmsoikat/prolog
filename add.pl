@@ -1,0 +1,1 @@
+add_new(A,B) :- Z is A + B, write(Z).
